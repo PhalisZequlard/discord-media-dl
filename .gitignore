@@ -70,3 +70,17 @@ downloads/
 .vscode/
 .idea/
 *.swp
+
+# Ignore __pycache__ directories everywhere
+**/__pycache__/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+
+# Ignore other temporary Python-related files (optional)
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
