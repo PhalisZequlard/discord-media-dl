@@ -1,0 +1,11 @@
+discord.py>=2.0.0
+yt-dlp
+gallery-dl
+python-dotenv
+aiohttp
+zipfile36
+fastapi
+uvicorn
+jinja2
+python-multipart
+websockets
