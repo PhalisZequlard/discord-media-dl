@@ -11,7 +11,6 @@ easy to use with simplified command. open source and free to use.
 
 </div>
 
-
 <details>
 <summary><kbd>Table of contents</kbd></summary>
 
@@ -66,13 +65,47 @@ discord-media-dl supports multiple media types, including video, audio, images, 
 
 ## ⚡️ Quick Start
 
+1. clone this repository & change directory
+
+    ``` shell
+    git clone https://github.com/PhalisZequlard/discord-media-dl.git; 
+    cd discord-media-dl; 
+    open .
+    ```
+
+1. fill your discord bot info in **discord-media-dl/**[**.env**](.env) file
+
+1. install dependencies & run the bot
+
+    ``` shell
+    pip install -r requirements.txt;  
+    python3 main.py
+    ```
+
+> \[!NOTE]
+>
+> GUI will be running on `http://localhost:10412` by default.
+
+
 ## ⌨️ Local Development
+
+You can use GitHub Codespaces for online development:
+
+[![codespaces-shield]][codespaces-link]
 
 ## 🤝 Contributing
 
+Fork this repository, and make a pull request. please follow the commit rules when you make a commit or pull request.
+
 ## 🛣 Roadmap
 
+- [ ] discord login support
+- [ ] download media from GUI
+- [ ] publish to discord bot store
+
 ## ❤️ Sponsor
+
+Donate to support this project.  
 
 ## 🔗 More Products
 
@@ -129,3 +162,5 @@ This project is [Apache 2.0](./LICENSE) licensed.
 [github-wiki]: https://github.com/PhalisZequlard/discord-media-dl/wiki
 [github-issues-link]: https://github.com/PhalisZequlard/discord-media-dl/issues
 [profile-link]: https://github.com/PhalisZequlard
+[codespaces-link]: https://codespaces.new/PhalisZequlard/discord-media-dl
+[codespaces-shield]: https://github.com/codespaces/badge.svg
