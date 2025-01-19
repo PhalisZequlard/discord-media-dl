@@ -19,14 +19,17 @@ easy to use with simplified command. open source and free to use.
 
 - [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
 - [✨ Features](#-features)
-  - [`1` Downloading and Packaging](#1-downloading-and-packaging)
-  - [`2` Multi-Media Type Support](#2-multi-media-type-support)
+    - [`1` Downloading and Packaging](#1-downloading-and-packaging)
+    - [`2` Multi-Media Type Support](#2-multi-media-type-support)
 - [⚡️ Performance](#️-performance)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🛣 Roadmap](#-roadmap)
 - [❤️ Sponsor](#️-sponsor)
 - [🔗 More Products](#-more-products)
+    - [`1` AI Diary](#1-ai-diary)
+    - [`2` Prettier Mail](#2-prettier-mail)
+    - [`3` Tagging Pro](#3-tagging-pro)  
 
 ####
 
@@ -73,6 +76,18 @@ discord-media-dl supports multiple media types, including video, audio, images, 
 
 ## 🔗 More Products
 
+### `1` AI Diary  
+
+a diary that can write itself, chat with it!  
+
+### `2` Prettier Mail  
+
+VSCode extension, HTML email, using AJAX.  
+
+### `3` Tagging Pro  
+
+auto tagging & editing AI train images tag.  
+
 ---
 
 <details><summary><h4>📝 License</h4></summary>
@@ -86,36 +101,28 @@ Copyright © 2025 [Zequlard][profile-link]. <br />
 This project is [Apache 2.0](./LICENSE) licensed.
 
 
-<!-- 
-Commit rules
+<!-- Commit rules
 
-✨feat
-new functionality
+✨ feat : new functionality
 
-🐛 fixｚ
-Resolves a bug
+🐛 fix : Resolves a bug
 
-♻️ refactor
-Improves code structure without changing behavior
+♻️ refactor : Improves code structure without changing behavior
 
-💄 style
-Changes appearance/formatting
+💄 style : Changes appearance/formatting
 
-👷 build
-Modifies build configuration/tools
+👷 build : Modifies build configuration/tools
 
-⚡️ perf
-Makes code run faster
+⚡️ perf : Makes code run faster
 
-📝 docs
-Updates documentation
+📝 docs : Updates documentation
 
-🔨 chore
-Routine maintenance tasks​​​​​​​​​​​​​​​​
+🔨 chore : Routine maintenance tasks​​​​​​​​​​​​​​​​
 
  -->
 
 <!-- link group -->
+
 [discord-icon]: media/discord-icon.svg
 [discord-icon-with-text]: media/discord-icon-with-text.svg
 [changelog]: https://github.com/PhalisZequlard/discord-media-dl/releases
