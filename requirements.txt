@@ -9,5 +9,5 @@ uvicorn
 jinja2
 python-multipart
 websockets
-motor==3.3.2  # AsyncIO MongoDB driver
-pymongo==4.6.1 # Sync MongoDB driver
+motor==3.3.2  
+pymongo==4.6.1 
