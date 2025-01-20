@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Bot Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Stats Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="text-lg font-semibold mb-2">Active Downloads</h3>
+                <p class="text-3xl font-bold text-blue-600" id="active-downloads">0</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="text-lg font-semibold mb-2">Queued Items</h3>
+                <p class="text-3xl font-bold text-yellow-600" id="queued-items">0</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="text-lg font-semibold mb-2">Completed Today</h3>
+                <p class="text-3xl font-bold text-green-600" id="completed-today">0</p>
+            </div>
+        </div>
+
+        <!-- Active Downloads -->
+        <div class="bg-white rounded-lg shadow mb-8">
+            <div class="p-4 border-b">
+                <h2 class="text-xl font-bold">Active Downloads</h2>
+            </div>
+            <div class="p-4">
+                <div id="active-downloads-list" class="space-y-4">
+                    <!-- Active downloads will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Download History -->
+        <div class="bg-white rounded-lg shadow">
+            <div class="p-4 border-b">
+                <h2 class="text-xl font-bold">Download History</h2>
+            </div>
+            <div class="p-4">
+                <table class="min-w-full">
+                    <thead>
+                        <tr>
+                            <th class="text-left">ID</th>
+                            <th class="text-left">Type</th>
+                            <th class="text-left">URL</th>
+                            <th class="text-left">Options</th>
+                            <th class="text-left">Status</th>
+                            <th class="text-left">Started</th>
+                            <th class="text-left">Completed</th>
+                        </tr>
+                    </thead>
+                    <tbody id="download-history">
+                        <!-- History items will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/dashboard.js"></script>
+</body>
+</html>

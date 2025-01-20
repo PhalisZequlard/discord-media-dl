@@ -1,4 +1,4 @@
-# Gitignore for LobeHub
+# Gitignore for Discord py bot
 ################################################################
 
 # general
@@ -37,29 +37,11 @@ test-output
 .umi-test
 .dumi/tmp*
 
-# husky
-.husky/prepare-commit-msg
-
-# misc
-# add other ignore file below
-
 # local env files
 .env*.local
 
 # vercel
 .vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-.next
-.env
-public/*.js
-public/sitemap.xml
-public/sitemap-index.xml
-bun.lockb
-sitemap*.xml
-robots.txt
 
 # Serwist
 public/sw*
@@ -68,3 +50,39 @@ public/swe-worker*
 *.patch
 *.pdf
 vertex-ai-key.json
+
+# Environment
+.env
+venv/
+.venv
+.venv/
+__pycache__/
+*.pyc
+
+# Downloads and temporary files
+downloads/
+*.zip
+*.mp3
+*.mp4
+*.pdf
+*.jpg
+*.png
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore __pycache__ directories everywhere
+**/__pycache__/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+
+# Ignore other temporary Python-related files (optional)
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
