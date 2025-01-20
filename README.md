@@ -20,7 +20,7 @@ easy to use with simplified command. open source and free to use.
 - [✨ Features](#-features)
     - [`1` Downloading and Packaging](#1-downloading-and-packaging)
     - [`2` Multi-Media Type Support](#2-multi-media-type-support)
-- [⚡️ Performance](#️-performance)
+- [⚡️ Quick Start](#️-quick-start)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🛣 Roadmap](#-roadmap)
@@ -69,8 +69,7 @@ discord-media-dl supports multiple media types, including video, audio, images, 
 
     ``` shell
     git clone https://github.com/PhalisZequlard/discord-media-dl.git; 
-    cd discord-media-dl; 
-    open .
+    cd discord-media-dl; open .
     ```
 
 1. fill your discord bot info in **discord-media-dl/**[**.env**](.env) file
@@ -78,8 +77,7 @@ discord-media-dl supports multiple media types, including video, audio, images, 
 1. install dependencies & run the bot
 
     ``` shell
-    pip install -r requirements.txt;  
-    python3 main.py
+    pip install -r requirements.txt; python3 main.py
     ```
 
 > \[!NOTE]
@@ -132,7 +130,6 @@ copyright © 2025 Phalis Zequlard
 
 Copyright © 2025 [Zequlard][profile-link]. <br />
 This project is [Apache 2.0](./LICENSE) licensed.
-
 
 <!-- Commit rules
 
