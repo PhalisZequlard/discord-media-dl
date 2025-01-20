@@ -8,6 +8,10 @@ class Config:
     APPLICATION_ID = os.getenv('APPLICATION_ID')
     PUBLIC_KEY = os.getenv('PUBLIC_KEY')
     
+    # MongoDB settings
+    MONGODB_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
+    MONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'discord_downloader')
+    
     # Web GUI settings
     WEB_HOST = "localhost"
     WEB_PORT = 10412
