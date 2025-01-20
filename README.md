@@ -79,7 +79,13 @@ discord-media-dl supports multiple media types, including video, audio, images, 
     pyenv local 3.12.1     # sets Python version for this directory
     ```
 
-1. fill your discord bot info in **discord-media-dl/**[**.env**](.env) file
+1. create file .env in the root directory and fill in the following information
+
+    ``` .env
+    BOT_TOKEN=DISCORD_BOT_TOKEN
+    APPLICATION_ID=DISCORD_APPLICATION_ID
+    PUBLIC_KEY=PUBLIC_KEY
+    ```
 
 1. install dependencies & run the bot
 
