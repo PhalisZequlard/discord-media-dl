@@ -4,12 +4,14 @@ import discord
 import uuid
 from utils.queue_utils import DownloadTask, DownloadType, DownloadStatus, download_queue
 from utils.embed_utils import DownloadEmbed, DownloadButtons
+from utils.permission_utils import check_permission, track_active_download
 
 class GalleryDownloader(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     @app_commands.command(name="download-gallery", description="Download gallery from supported platforms")
+    @check_permission()
     async def download_gallery(self, interaction: Interaction, url: str):
         # Create pack type selection dropdown
         pack_select = discord.ui.Select(
@@ -64,6 +66,9 @@ class GalleryDownloader(commands.Cog):
                 options={"pack-kind": selected_pack}
             )
 
+            # Track active download
+            await track_active_download(interaction, task.id, "gallery")
+            
             # Add to queue
             await download_queue.add_task(task)
 

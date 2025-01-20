@@ -4,12 +4,14 @@ import discord
 import uuid
 from utils.queue_utils import DownloadTask, DownloadType, DownloadStatus, download_queue
 from utils.embed_utils import DownloadEmbed, DownloadButtons
+from utils.permission_utils import check_permission, track_active_download
 
 class VideoDownloader(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     @app_commands.command(name="download-video", description="Download a video from supported platforms")
+    @check_permission()
     async def download_video(self, interaction: Interaction, url: str):
         # Create quality selection dropdown
         quality_select = discord.ui.Select(
@@ -61,6 +63,9 @@ class VideoDownloader(commands.Cog):
                 options={"quality": selected_quality}
             )
 
+            # Track active download
+            await track_active_download(interaction, task.id, "video")
+            
             # Add to queue
             await download_queue.add_task(task)
 

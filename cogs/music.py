@@ -4,12 +4,14 @@ import discord
 import uuid
 from utils.queue_utils import DownloadTask, DownloadType, DownloadStatus, download_queue
 from utils.embed_utils import DownloadEmbed, DownloadButtons
+from utils.permission_utils import check_permission, track_active_download
 
 class MusicDownloader(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     @app_commands.command(name="download-music", description="Download music from supported platforms")
+    @check_permission()
     async def download_music(self, interaction: Interaction, url: str):
         # Create format selection buttons
         view = discord.ui.View()
@@ -62,6 +64,9 @@ class MusicDownloader(commands.Cog):
                 options={"format": selected_format}
             )
 
+            # Track active download
+            await track_active_download(interaction, task.id, "music")
+            
             # Add to queue
             await download_queue.add_task(task)
 
