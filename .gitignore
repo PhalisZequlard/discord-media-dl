@@ -54,6 +54,7 @@ vertex-ai-key.json
 # Environment
 .env
 venv/
+.venv
 .venv/
 __pycache__/
 *.pyc
