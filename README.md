@@ -144,26 +144,6 @@ copyright © 2025 Phalis Zequlard
 Copyright © 2025 [Zequlard][profile-link]. <br />
 This project is [Apache 2.0](./LICENSE) licensed.
 
-<!-- Commit rules
-
-✨ feat : new functionality
-
-🐛 fix : Resolves a bug
-
-♻️ refactor : Improves code structure without changing behavior
-
-💄 style : Changes appearance/formatting
-
-👷 build : Modifies build configuration/tools
-
-⚡️ perf : Makes code run faster
-
-📝 docs : Updates documentation
-
-🔨 chore : Routine maintenance tasks​​​​​​​​​​​​​​​​
-
- -->
-
 <!-- link group -->
 
 [discord-icon]: media/discord-icon.svg

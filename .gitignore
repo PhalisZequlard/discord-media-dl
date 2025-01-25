@@ -1,6 +1,9 @@
 # Gitignore for Discord py bot
 ################################################################
 
+.llmpr.md
+other/
+
 # general
 .DS_Store
 .idea
