@@ -2,7 +2,7 @@
 
 ![discord-icon-with-text]
 
-# discord-media-dl
+# Hoox bot
 
 a discord bot for downloading media, include video, audio, images and novel on multiple platforms. 
 easy to use with simplified command. open source and free to use.
