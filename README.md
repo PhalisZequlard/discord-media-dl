@@ -2,12 +2,12 @@
 
 ![discord-icon-with-text]
 
-# Hoox bot
+# Hoox 
 
-a discord bot for downloading media, include video, audio, images and novel on multiple platforms. 
+Hoox is a self host light weight discord bot, a host manager with rich features, including downloading media, voting, and more.
 easy to use with simplified command. open source and free to use.
 
-**English** · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [Changelog][changelog] · [Documents][github-wiki] · [Feedback][github-issues-link]
+**English** · [繁體中文](./README.zh_TW.md) · [简体中文](./README.zh_CN.md) · [Changelog][changelog] · [Documents][github-wiki] · [Feedback][github-issues-link]
 
 </div>
 
