@@ -14,4 +14,6 @@ assignees: Zequlard
 - [ ] new `/command` | 新指令
 
 ## Describe your idea | 描述你的想法
-A clear and concise description of what you want to happen. | 清楚的描述你想要加入的功能
+
+A clear and concise description of what you want to happen.
+清楚的描述你想要加入的功能。
