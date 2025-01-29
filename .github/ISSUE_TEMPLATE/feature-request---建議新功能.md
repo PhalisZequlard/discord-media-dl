@@ -10,8 +10,9 @@ assignees: Zequlard
 ## idea for | 功能類別
 
 - [ ] web view UI/UX | 網頁介面/流程
-- [ ] discord `/command` UI/UX | 指令介面/流程
 - [ ] new `/command` | 新指令
+- [ ] auto workflow | 自動化流程
+- [ ] others | 其他
 
 ## Describe your idea | 描述你的想法
 
